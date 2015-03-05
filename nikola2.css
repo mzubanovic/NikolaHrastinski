@@ -1,0 +1,285 @@
+/* ============================================================
+  PRIMARY STRUCTURE
+============================================================ */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.kontakt {
+  padding-right: 6%;
+  padding-left: 6%;
+}
+
+/* ============================================================
+  SECTIONS
+============================================================ */
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module h2 {
+  margin-bottom: 40px;
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+}
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 40px 0;
+  height: auto;
+}
+section.module.parallax {
+  padding: 0px 0;
+  background-position: 0 0px;
+}
+.module.parallax.parallax-2{
+  background-position: 0 0;
+  background-repeat:no-repeat;
+    
+  
+}
+section.module.parallax h1 {
+  color: #1e1e1e;
+  font-size: 48px;
+  line-height: 1;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 150px white;
+  vertical-align: center;
+}
+section.module.parallax-1 {
+  background-image: url("grafike/color1b.jpg");
+  background-size: cover; 
+ 
+}
+section.module.parallax-2 {
+  background-image: url("grafike/1.jpg");
+  background-size: cover; 
+ 
+}
+section.module.parallax-3 {
+  background-image: url("grafike/graf2.jpg");
+  background-size: cover; 
+}
+section.module.parallax-4 {
+  background-image: url("grafike/6.jpg");
+  background-size: cover; 
+}
+
+
+@media all and (max-width: 600px) {
+  section.module p {
+    padding-right: 6%;
+    padding-left: 6%;
+  }
+  form{
+    width:100%;
+  }
+  .thumbnail{
+    max-height:170px;
+    max-width:170px;
+  }
+}
+
+@media all and (min-width: 600px) {
+  
+  section.module h2 {
+    font-size: 42px;
+  }
+  section.module p {
+    font-size: 20px;
+  }
+  section.module.parallax {
+    padding: 300px ;
+    
+  }
+  section.module.parallax h1 {
+    font-size: 96px;
+    padding-bottom:2%; 
+  }
+  .navbar-collapse {
+  padding-right: 150px;
+  }
+  .kontakt {
+    padding-left: 0px;
+  }
+  .thumbnail{
+    max-height:103px;
+    max-width:103px;
+  }
+  
+}
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 160px;
+  }
+}
+section.module.parallax {
+    padding: 300px 0;
+    
+  }
+
+/*contact form
+  POČETAK*/
+form {
+  color: #FFFFFF;
+}
+iframe{
+  color: #FFFFF0;
+  background-color: #1e1e1e;
+  padding: 10px;
+}
+input {
+    color: #FFFFF0;
+    border-radius: 4px;
+    background-color: #1e1e1e;
+}
+
+textarea {
+  border-radius: 4px;
+  color: #FFFFF0;
+  background-color: #1e1e1e;
+}
+iframe a{
+  color: #FFFFF0;
+}
+#submit {
+  color: #FFFFFF;
+  margin-top: 20px;
+}
+
+@media screen {
+  
+  input {
+    width:60%;
+  }
+  textarea {
+    width: 90%;
+    padding: 2%;
+  }
+}
+/*contact form
+  KRAJ*/
+
+footer{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 10px;
+}
+footer p span {
+  padding:5px 10px;
+}
+h3{
+  font-family: "Roboto Slab", serif;
+  font-size: 20px;
+}
+ul{
+  margin-bottom:4px;
+}
+#nagrade {
+  margin-top:40px;
+}
+
+/*navigacija - 
+  POČETAK*/
+
+.navbar-default{
+  height: 2px;
+  min-height: 5px;
+  margin-right: 0px;
+  color:#FFFFFF;
+  font-size: 12px;
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: rgb(46,16,0);
+  border-color: rgb(46,16,0);   
+}
+
+.navbar-inverse {
+  background-color: transparent;
+  border: none;
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: #fff;
+  background: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+  color: #fff;
+  background: rgb(23, 19, 17);
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border:none;
+}
+.navbar .navbar-inverse .navbar-fixed-top{
+  background-color:white;
+}
+.navbar{ 
+    background-image: none;
+}
+.navbar-right {
+float: right!important;
+margin-right: -120px;
+}
+.navbar-inverse .navbar-nav>li>a{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+@media all and (min-width: 600px) {
+  .navbar-right {
+  margin-right: -760px;
+  }
+}
+/*navigacija - 
+  KRAJ*/
+p h1 h2 h3 ul li a{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+section.module h2, h1, h3, p, ul, li{
+font-family: 'Roboto Condensed', sans-serif;
+}
+input {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.citat, a:hover, h2, h3{
+  color: #FFFFFF;
+}
+a{
+  color: #505050;
+}
+.galerija{
+  margin-top: 8%;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+.gallery-row {
+  margin-top:-20px;
+  width:100%;
+}
+
+.gallery-row:nth-child(4){
+  margin-bottom: 100px;
+}
+
+.thumbnail {
+  height: 100%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer p{
+  font-size: 16px;
+}
+#navigation{
+  width:100%;
+}
+section.module.parallax h1{
+    background-color: rgba(255,255,255, 0.3);
+  }
